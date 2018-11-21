@@ -13,4 +13,6 @@ Mobile버전: Width ~767px
 
 이미지 작업: Adobe Photoshop, Adobe Illustrator
 
+Page Location: Main page, Sub page(제품정보 > 미러리스) <총 2 Page 제작>
+
 Page Domain: http://sjh9386061.dothome.co.kr
