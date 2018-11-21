@@ -168,7 +168,7 @@
     }
     .s_ft_logo{
         position: absolute;
-        top: calc((-100vw + 80px)/4 - 4.2vw - 30px);
+        top: calc((-100vw + 80px)/4 - 4.2vw - 40px);
         left: 50%;
         transform: translateX(-50%);
         width: 20vw;

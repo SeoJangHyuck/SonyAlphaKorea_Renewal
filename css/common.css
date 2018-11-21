@@ -61,6 +61,7 @@ img{vertical-align: top;}
     margin-top: 22px;
     background: url(../img/common/main_logo.png) no-repeat center center;
     background-size: contain;
+    background-size: cover;
     text-indent: -9999px;
 }
 .s_hd_logo>a{
@@ -73,8 +74,12 @@ img{vertical-align: top;}
 .s_hd_pr{
     float: left;
     width: 125px;
+    width: 130px;
     margin-top: 38px;
-    margin-left: 322px;
+    margin-left: 320px;
+}
+.s_hd_pr>img{
+    width: 40px;
 }
 .s_hd_pr>a{
     display: inline-block;
@@ -170,14 +175,14 @@ img{vertical-align: top;}
     font-weight: bold;
     color: #fff;
 }
-#s_gnb1>li>a.s_gnb_bg{
+#s_gnb1>li>a.s_gnb_ac{
     background: #ff6e1f;
 }
 #s_gnb1>li>a>span{
     display: inline-block;
     height: 37px;
 }
-#s_gnb1>li>a>span.s_gnb_b{
+#s_gnb1>li>a>span.s_gnb_ac{
     border-bottom: 2px solid #fff;
 }
 .s_gnb2{

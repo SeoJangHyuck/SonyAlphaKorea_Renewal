@@ -5,7 +5,7 @@
 }
 .s_mgnb_btn{
     position: absolute;
-    top: 35px;
+    top: 30px;
     left: 20px;
     width: 45px;
     height: 45px;
@@ -22,6 +22,7 @@
     height: 100%;
     padding-top: 100px;
     border-right: 1px solid #000;
+    box-sizing: border-box;
     z-index: 9970;
     background: #111;
     transition: 0.4s;
@@ -40,7 +41,7 @@
     border-bottom: 2px solid #333;
     background: #fff;
 }
-#s_mgnb1>li>a.s_mgnb_bg{
+#s_mgnb1>li>a.s_mgnb_ac{
     background-color: #eb5b0c;
 }
 #s_mgnb1>li>a>span{
@@ -49,7 +50,7 @@
     letter-spacing: 1px;
     color: #111;
 }
-#s_mgnb1>li>a>span.s_mgnb_bg{
+#s_mgnb1>li>a>span.s_mgnb_ac{
     color: #fff;
 }
 .s_mgnb2>ul{
@@ -133,11 +134,12 @@
         float: none;
         margin: 0px auto;
         width: 21vw;
+        height: 4vw;
     }
     .s_hd_pr{
         float: none;
         position: absolute;
-        top: 35px;
+        top: 30px;
         right: 20px;
         width: initial;
         margin: 0px;
@@ -145,10 +147,11 @@
     }
     .s_hd_pr>a{
         display: block;
+        padding-top: 3px;
         font-size: 1.4vw;
     }
     .s_hd_pr>img{
-        width: 4vw;
+        width: 4.5vw;
     }
     .s_mgnb_con, .s_mgnb_btn{
         display: block;
@@ -158,7 +161,7 @@
         position: relative;
         padding-top: 4.2vw;
         margin-top: 4.2vw;
-        margin-bottom: 0px;
+        margin-bottom: 4.2vw;
     }
     .s_ft_con>:nth-child(n){
         float: none;

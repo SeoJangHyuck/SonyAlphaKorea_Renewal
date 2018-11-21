@@ -4,9 +4,12 @@ $(function(){
         $(".s_mgnb_con").toggleClass("s_mgnb_a");
     });
     $("#s_mgnb1>li>a").click(function(){
-        $(this).toggleClass("s_mgnb_bg");
-        $(this).children().toggleClass("s_mgnb_bg");
-        $(this).next().children("ul").stop().slideToggle(400);
+        $(this).addClass("s_mgnb_ac");
+        $(this).parent().siblings().children("a").removeClass("s_mgnb_ac");
+        $(this).children().addClass("s_mgnb_ac");
+        $(this).parent().siblings().find("span").removeClass("s_mgnb_ac");
+        $(this).next().children("ul").stop().slideDown(500);
+        $(this).parent().siblings().find("ul").stop().slideUp(500);
     });
     //Product icon
     $(".s_hd_pr>a").on("mouseover focusin",function(){
@@ -18,14 +21,14 @@ $(function(){
     
     //GNB Slide
     $("#s_gnb1>li").on("mouseover focusin",function(){
-        $(this).children("a").addClass("s_gnb_bg");
+        $(this).children("a").addClass("s_gnb_ac");
         $(this).find("ul").stop().slideDown(500);
-        $(this).find("span").addClass("s_gnb_b");
+        $(this).find("span").addClass("s_gnb_ac");
     });
     $("#s_gnb1>li").on("mouseout focusout",function(){
-        $(this).children("a").removeClass("s_gnb_bg");
+        $(this).children("a").removeClass("s_gnb_ac");
         $(this).find("ul").stop().slideUp(500);
-        $(this).find("span").removeClass("s_gnb_b");
+        $(this).find("span").removeClass("s_gnb_ac");
     });
     
     //Site Slide
