@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* Common */
+
+/* Tablet 768px~1199px */
+@media all and (min-width: 768px) and (max-width: 1199px){
+    /* Main Banner */
+    .s_mb_img{
+        width: 60vw;
+        height: 40vw;
+        margin-top: 4.5vw;
+        margin-bottom: 2vw;
+    }
+    .s_mbanner>div{
+        width: 60vw;
+        height: 40vw;
+    }
+    .s_mb_rbtn{
+        width: 250px;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .s_mb_rbtn>label{
+        margin-right: 0.8vw;
+    }
+    .s_mb_rbtn>label:last-child{
+        margin-right: 0px;
+    }
+    .s_mb_pdtn>a{
+        display: none;
+    }
+    .s_mb_kw{
+        bottom: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40vw;
+    }
+    .s_mkw{
+        font-size: 1.6vw;
+        font-weight: normal;
+    }
+    
+    /* SNS & Customer Content */
+    #s_sc{
+        margin-top: 0px;
+        padding-bottom: 4.2vw;
+    }
+    .s_sns{
+        margin-top: 3.2vw;
+        padding-left: 20px;
+    }
+    .s_sns>div{
+        width: 5vw;
+        height: 5vw;
+        border-radius: 2.5vw;
+    }
+    .s_custom>a{
+        display: block;
+        width: 20vw;
+        height: 6vw;
+        padding: 5px;
+        border: 2px solid #a4a6a6;
+        border-radius: 20px;
+        margin-top: 2.6vw;
+        margin-right: 20px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .s_custom>a:before{
+        display: none;
+    }
+    .s_custom>a>img{
+        width: 4.4vw;
+        height: 4.4vw;
+        position: static;
+    }
+    .s_custom>a>p{
+        display: inline-block;
+        line-height: 4.4vw;
+        margin-top: 0px;
+        margin-left: 10px;
+        font-size: 1.5vw;
+    }
+    
+    /* Main Content */
+    #s_mc{
+        padding-top: 4.2vw;
+    }
+    .s_mcon1{
+        position: relative;
+        margin: 0px 20px;
+    }
+    .s_mcon1>div{
+        width: calc((100vw - 80px)/3);
+        height: calc((100vw - 80px)/2);
+    }
+    /* Notice & Event */
+    .s_mcon1>.s_notice, .s_mcon1>.s_event{
+        height: calc((100vw - 80px)/4 - 10px);
+        padding: 4.5vw 15px;
+    }
+    .s_notice>a:nth-of-type(n), .s_event>a:nth-of-type(n){
+        display: none;
+    }
+    .s_notice>a:nth-of-type(1), .s_event>a:nth-of-type(1){
+        display: block;
+    }
+    .s_mcon1>.s_notice>h2, .s_mcon1>.s_event>h2{
+        font-size: 2vw;
+        margin-bottom: 10px;
+    }
+    .s_notcon>h3, .s_evcon>h3, .s_notcon>p, .s_evcon>p{
+        font-size: 1.6vw;
+        line-height: 2.4vw;
+    }
+    .s_mcon1>.s_event{
+        display: block;
+        position: absolute;
+        top: calc(50% + 9px);
+        left: 0px;
+    }
+    /* Sub Banner */
+    .s_fsbanner>h3, .s_csbanner>h3{
+        font-size: 2vw;
+    }
+    .s_fsb_kw, .s_csb_kw{
+        top: 30%;
+    }
+    .s_fs_detail, .s_cs_detail{
+        top: 40%;
+    }
+    .s_fs_detail>label>a, .s_cs_detail>label>a{
+        width: 60%;
+        height: 3.2vw;
+        line-height: 3.2vw;
+        font-size: 1.6vw; 
+    }
+    /* Content 2 */
+    .s_mcon2{
+        margin: 20px 20px 0px;
+    }
+    .s_box{
+        width: calc((100vw - 80px)/3);
+        height: calc((100vw - 80px)/6);
+    }
+    .s_box:nth-of-type(3), .s_box:nth-of-type(5), .s_box:nth-of-type(8){
+        margin-right: 0px;
+    }
+    .s_box:nth-of-type(4){
+        margin-right: 20px;
+    }
+    .s_box:nth-of-type(5){
+        margin-left: calc((100vw - 80px)/3 + 20px);
+        margin-bottom: 20px;
+    }
+    .s_box>a>h2{
+        top: 40%;
+        box-sizing: border-box;
+        font-size: 1.8vw;
+    }
+    .s_box>a>p{
+        top: 60%;
+        font-size: 1.5vw;
+    }
+    .s_box:nth-of-type(3)>a>h2{
+        top: 30%;
+        padding: 0px 4vw;
+    }
+    .s_ft_logo{
+        position: absolute;
+        top: calc((-100vw + 80px)/4 - 4.2vw - 30px);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20vw;
+        height: 4vw;
+    }
+} /* Tablet End */
+
+/* Mobile ~767px */
+@media all and (max-width: 767px){
+    #s_mb, #s_sc, #s_mc, #s_ft{
+        display: none;
+    }
+} /* Mobile End */

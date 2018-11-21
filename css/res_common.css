@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* Common */
+.s_mgnb_btn, .s_mgnb_con{
+    display: none;
+}
+.s_mgnb_btn{
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    text-indent: -9999px;
+    z-index: 9980;
+    background: #fff;
+}
+.s_mgnb_con{
+    position: absolute;
+    top: 0px;
+    left: calc(-25vw - 10px);
+    width: 25vw;
+    height: 100%;
+    padding-top: 100px;
+    border-right: 1px solid #000;
+    z-index: 9970;
+    background: #111;
+    transition: 0.4s;
+}
+.s_mgnb_con.s_mgnb_a{
+    left: 0px;
+}
+#s_mgnb1{
+    margin-bottom: 20px;
+}
+#s_mgnb1>li>a{
+    display: block;
+    height: 3.5vw;
+    line-height: 3.5vw;
+    text-align: center;
+    border-bottom: 2px solid #333;
+    background: #fff;
+}
+#s_mgnb1>li>a.s_mgnb_bg{
+    background-color: #eb5b0c;
+}
+#s_mgnb1>li>a>span{
+    font-size: 2vw;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #111;
+}
+#s_mgnb1>li>a>span.s_mgnb_bg{
+    color: #fff;
+}
+.s_mgnb2>ul{
+    display: none;
+}
+.s_mgnb2>ul>li>a{
+    display: block;
+    height: 3.5vw;
+    line-height: 3.5vw;
+    padding-left: 20px;
+    font-size: 1.5vw;
+    background: #262626;
+}
+.s_hd_mls{
+    width: calc(20vw - 20px);
+    margin: 0 auto;
+}
+.s_mlogin{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.s_mlogin>ul{
+    display: inline-block;
+}
+.s_mlogin>ul>li:nth-of-type(1){
+    float: left;
+    line-height: 1.2vw;
+    padding-right: 14px;
+    border-right: 1px solid #d9d9d9;
+    margin-right: 14px;
+}
+.s_mlogin>ul>li>a{
+    font-size: 1.2vw;
+}
+.s_mlogin>ul>li:nth-of-type(2){
+    float: left;
+    line-height: 1.2vw;
+}
+.s_msearch{
+    position: relative;
+    width: 100%;
+    padding: 3px;
+    box-sizing: border-box;
+    background: #fff;
+}
+.s_msearch>form>fieldset>input:nth-of-type(1){
+    width: calc(100% - 33px);
+    height: 24px;
+    background: #fff;
+    border: none;
+}
+.s_msearch>form>fieldset>input:nth-of-type(2){
+    position: absolute;
+    top: 4px;
+    right: 3px;
+}
+/* Tablet 768px~1199px */
+@media all and (min-width: 768px) and (max-width: 1199px){
+    .s_center{
+        width: initial;
+    }
+    .s_res_img{
+        width: 100%;
+    }
+    #s_gnb_wrap, .s_hd_ls, .s_ghome, .s_family{
+        display: none;
+    }
+    body{
+        position: relative;
+        padding-top: 3.5vw;
+        background-image: url(../img/common/t_background.jpg);
+        background-size: contain;
+    }
+    
+    /* Header */
+    .s_mhd{
+        margin-top: 0px;
+        height: 5.5vw;
+    }
+    .s_hd_logo{
+        float: none;
+        margin: 0px auto;
+        width: 21vw;
+    }
+    .s_hd_pr{
+        float: none;
+        position: absolute;
+        top: 35px;
+        right: 20px;
+        width: initial;
+        margin: 0px;
+        text-align: center;
+    }
+    .s_hd_pr>a{
+        display: block;
+        font-size: 1.4vw;
+    }
+    .s_hd_pr>img{
+        width: 4vw;
+    }
+    .s_mgnb_con, .s_mgnb_btn{
+        display: block;
+    }
+    /* Footer */
+    #s_ft{
+        position: relative;
+        padding-top: 4.2vw;
+        margin-top: 4.2vw;
+        margin-bottom: 0px;
+    }
+    .s_ft_con>:nth-child(n){
+        float: none;
+        margin: 0px auto;
+    }
+    .s_privacy{
+        width: initial;
+        text-align: center;
+    }
+    .s_privacy>ul{
+        display: inline-block;
+    }
+    .s_privacy>ul>li{
+        height: 1.6vw;
+        line-height: 1.6vw;
+    }
+    .s_privacy>ul>li>a{
+        font-size: 1.6vw;
+    }
+    .s_privacy>ul>li:nth-of-type(2){
+        padding-right: 10px;
+        border-right: 1px solid #fff;
+        margin-right: 10px;
+    }
+    .s_privacy>ul>li:nth-of-type(3){
+        margin-top: 0px;
+    }
+    .s_ft_con>.s_addr{
+        width: initial;
+        margin: 20px auto 0px;
+        font-size: 1.6vw;
+        text-align: center;
+    }
+    .s_addr>small{
+        font-size: 1.4vw;
+    }
+} /* Tablet End */
+
+/* Mobile ~767px */
+@media all and (max-width: 767px){
+    #s_gnb_wrap, .s_hd_ls, .s_ft_logo, .s_ghome, .s_family{
+        display: none;
+    }
+} /* Mobile End */
