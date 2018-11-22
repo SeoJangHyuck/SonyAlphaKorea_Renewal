@@ -177,7 +177,6 @@
     border-radius: 25px;
     margin-right: 10px;
     transition: 0.5s;
-    background-size: cover;
 }
 .s_sns>div:hover, .s_sns>div:focus{
     border: 2px solid #000;
@@ -228,6 +227,8 @@
 }
 .s_custom>a>img{
     position: absolute;
+    width: 54px;
+    height: 54px;
     top: 10px;
     left: 14px;
 }
