@@ -463,7 +463,7 @@
 #s_fb2:checked~.s_fsimg, #s_fb2:checked~.s_fsb_kw, #s_fb2:checked~.s_fs_detail, #s_fb2:checked~.s_fsb_info{
     left: -100%;
 }
-#s_fb3:checked~.s_fsimg, #s_fb3:checked~.s_fsb_kw, #s_fb3:checked~.s_fs_detail, #s_fb4:checked~.s_fsb_info{
+#s_fb3:checked~.s_fsimg, #s_fb3:checked~.s_fsb_kw, #s_fb3:checked~.s_fs_detail, #s_fb3:checked~.s_fsb_info{
     left: -200%;
 }
 #s_fb4:checked~.s_fsimg, #s_fb4:checked~.s_fsb_kw, #s_fb4:checked~.s_fs_detail, #s_fb4:checked~.s_fsb_info{
@@ -615,7 +615,7 @@
 #s_cb2:checked~.s_csimg, #s_cb2:checked~.s_csb_kw, #s_cb2:checked~.s_cs_detail, #s_cb2:checked~.s_csb_info{
     left: -100%;
 }
-#s_cb3:checked~.s_csimg, #s_cb3:checked~.s_csb_kw, #s_cb3:checked~.s_cs_detail, #s_cb4:checked~.s_csb_info{
+#s_cb3:checked~.s_csimg, #s_cb3:checked~.s_csb_kw, #s_cb3:checked~.s_cs_detail, #s_cb3:checked~.s_csb_info{
     left: -200%;
 }
 #s_cb4:checked~.s_csimg, #s_cb4:checked~.s_csb_kw, #s_cb4:checked~.s_cs_detail, #s_cb4:checked~.s_csb_info{

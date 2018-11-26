@@ -3,6 +3,13 @@
 
 /* Tablet 768px~1199px */
 @media all and (min-width: 768px) and (max-width: 1199px){
+    body{
+        position: relative;
+        padding-top: 3.5vw;
+        background-image: url(../img/common/t_background.jpg);
+        background-size: contain;
+    }
+    
     /* Main Banner */
     .s_mb_img{
         width: 60vw;
@@ -341,7 +348,7 @@
     }
     /* Notice & Event */
     .s_mcon1>.s_notice, .s_mcon1>.s_event{
-        width: calc(100vw - 20px);
+        width: 100%;
         padding: 4.5vw 15px;
         margin-bottom: 10px;
     }

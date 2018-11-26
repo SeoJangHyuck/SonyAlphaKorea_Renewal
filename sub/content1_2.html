@@ -14,6 +14,7 @@
     <link href="../css/common.css" rel="stylesheet">
     <link href="../css/content1_2.css" rel="stylesheet">
     <link href="../css/res_common.css" rel="stylesheet">
+    <link href="../css/res_content1_2.css" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
@@ -32,17 +33,17 @@
 <body>
     <!--  Skip  -->
     <div class="s_skip">
-        <a href="#s_smc">본문 바로가기</a>
-        <a href="#s_lnb">로컬메뉴 바로가기</a>
+        <a href="#s_mc">본문 바로가기</a>
+        <a href="#s_gnb1">주메뉴 바로가기</a>
     </div>
 
     <!--  Header  -->
     <header id="s_hd">
         <div class="s_mhd s_clear s_center">
-            <h1 class="s_hd_logo"><a href="/index.html">소니 알파</a></h1>
+            <h1 class="s_hd_logo"><a href="/">소니 알파</a></h1>
             <div class="s_hd_pr">
-                <a href="#">정품등록하기</a>
                 <img src="../img/common/camera_icon.png" alt="카메라 아이콘">
+                <a href="#">정품등록하기</a>
             </div>
             <div class="s_hd_ls">
                 <div class="s_login">
@@ -67,13 +68,13 @@
             <h2 class="s_blind">메뉴바</h2>
             <ul id="s_gnb1" class="s_clear">
                 <li>
-                    <a href="#" class="s_gnb_bg"><span class="s_gnb_b">제품정보</span></a>
+                    <a href="#"><span>제품정보</span></a>
                     <div class="s_gnb2">
-                        <ul class="s_clear sub_slide">
+                        <ul class="s_clear">
                             <li><a href="#">DSLR</a></li>
-                            <li><a href="#" class="sub_slide">미러리스</a></li>
+                            <li><a href="/sub/content1_2.html">미러리스</a></li>
                             <li><a href="#">렌즈</a></li>
-                            <li><a href="http://store.sony.co.kr/handler/CateList-StartMiddle?catalogId=6107&catalogId_Large_se=&catalogId_middle_se=&catalogId_Small_se=&ProductID=&Quantity=1&cateSearchGbn=CSearch&param1=6107&param2=middleCate&param3=C&param4=&pageNo=01" target="_blank">액세서리</a></li>
+                            <li><a href="#">액세서리</a></li>
                         </ul>
                     </div>
                 </li>
@@ -120,6 +121,84 @@
                 </li>
             </ul>
         </nav>
+        <button class="s_mgnb_btn"><span>모바일 메뉴 버튼</span></button>
+        <div class="s_mgnb_con">
+            <nav id="s_mgnb_wrap">
+                <h2 class="s_blind">메뉴바</h2>
+                <ul id="s_mgnb1">
+                    <li>
+                        <a href="#"><span>제품정보</span></a>
+                        <div class="s_mgnb2">
+                            <ul>
+                                <li><a href="#">DSLR</a></li>
+                                <li><a href="/sub/content1_2.html">미러리스</a></li>
+                                <li><a href="#">렌즈</a></li>
+                                <li><a href="#">액세서리</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><span>갤러리</span></a>
+                        <div class="s_mgnb2">
+                            <ul>
+                                <li><a href="#">포토 갤러리</a></li>
+                                <li><a href="#">동영상 갤러리</a></li>
+                                <li><a href="#">제품 이미지</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><span>이벤트 &amp; 소식</span></a>
+                        <div class="s_mgnb2">
+                            <ul>
+                                <li><a href="#">이벤트</a></li>
+                                <li><a href="#">서포터즈 &amp; 리뷰어</a></li>
+                                <li><a href="#">공지 &amp; 보도자료</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><span>아카데미</span></a>
+                        <div class="s_mgnb2">
+                            <ul>
+                                <li><a href="#">강좌신청</a></li>
+                                <li><a href="#">강사소개</a></li>
+                                <li><a href="#">작가갤러리</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><span>구매처</span></a>
+                        <div class="s_mgnb2">
+                            <ul>
+                                <li><a href="#">소니 스토어</a></li>
+                                <li><a href="#">오프라인 대리점</a></li>
+                                <li><a href="#">온라인 대리점</a></li>
+                                <li><a href="#">렌즈 컨설팅 스토어</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="s_hd_mls">
+                <div class="s_mlogin">
+                    <ul class="s_clear">
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                    </ul>
+                </div>
+                <div class="s_msearch">
+                    <form action="#" method="post" name="grobal_search">
+                        <fieldset>
+                            <legend class="s_blind">검색창</legend>
+                            <label for="s_mstext" class="s_blind">검색어 입력</label>
+                            <input id="s_mstext" type="text" title="검색어 입력">
+                            <input type="image" src="../img/common/search_icon.png" alt="검색 아이콘">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
     </header>
 
     <!--  Local Header  -->
@@ -348,7 +427,7 @@
             <div class="s_ghome">
                 <a href="#">
                     <p>GLOBAL SITE</p>
-                    <img src="../img/common/go_arrow_icon.png" alt="이동하기 아이콘">
+                    <img  src="../img/common/go_arrow_icon.png" alt="이동하기 아이콘">
                 </a>
             </div>
             <div class="s_family">

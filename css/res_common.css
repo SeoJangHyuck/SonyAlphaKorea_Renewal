@@ -120,12 +120,6 @@
     #s_gnb_wrap, .s_hd_ls, .s_ghome, .s_family{
         display: none;
     }
-    body{
-        position: relative;
-        padding-top: 3.5vw;
-        background-image: url(../img/common/t_background.jpg);
-        background-size: contain;
-    }
     
     /* Header */
     .s_mhd{
