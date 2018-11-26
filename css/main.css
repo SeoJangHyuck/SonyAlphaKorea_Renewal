@@ -298,7 +298,7 @@
     color: #000;
     font-weight: bold;
 }
-.s_mcon1>div .s_more{
+.s_more{
     position: absolute;
     top: 20px;
     right: 25px;
@@ -307,7 +307,7 @@
     display: block;
     width: 32px;
     height: 32px;
-    background-image: url(../img/main/more_icon_b.png) no-repeat;
+    background-image: url(../img/main/more_icon_b.png);
     text-indent: -9999px;
 }
 
@@ -497,7 +497,7 @@
 #s_fb7:checked~.s_fsb_direction>label:nth-child(8){
     display: block;
     right: 10px;
-    background-image: url(../img/main/product/s_btn_right_s.png); 
+    background-image: url(../img/main/product/s_btn_right_s.png);
 }
 #s_fb2:checked~.s_fsb_direction>label:nth-child(1), #s_fb3:checked~.s_fsb_direction>label:nth-child(2), #s_fb4:checked~.s_fsb_direction>label:nth-child(3), #s_fb5:checked~.s_fsb_direction>label:nth-child(4), #s_fb6:checked~.s_fsb_direction>label:nth-child(5), #s_fb7:checked~.s_fsb_direction>label:nth-child(6), #s_fb8:checked~.s_fsb_direction>label:nth-child(7){
     display: block;
@@ -710,6 +710,12 @@
     width: 100%;
     font-size: 16px;
     font-weight: bold;
+}
+.s_box:nth-of-type(n)>a>h2>br, .s_box:nth-of-type(n)>a>p>br{
+    display: none;
+}
+.s_box:nth-of-type(1)>a>h2>br{
+    display: block;
 }
 .s_box>a>p{
     position: absolute;

@@ -295,13 +295,12 @@
     /* Footer */
     #s_ft{
         position: relative;
-        padding-top: 4.2vw;
-        margin-top: 4.2vw;
-        margin-bottom: 4.2vw;
+        padding-top: 20px;
+        margin: 20px 0px;
     }
     .s_ft_con>:nth-child(n){
         float: none;
-        margin: 0px auto;
+        margin: 0px auto 10px;
     }
     .s_privacy{
         width: initial;
@@ -311,11 +310,11 @@
         display: inline-block;
     }
     .s_privacy>ul>li{
-        height: 1.6vw;
-        line-height: 1.6vw;
+        height: 3.2vw;
+        line-height: 3.2vw;
     }
     .s_privacy>ul>li>a{
-        font-size: 1.6vw;
+        font-size: 3.2vw;
     }
     .s_privacy>ul>li:nth-of-type(2){
         padding-right: 10px;
@@ -327,11 +326,16 @@
     }
     .s_ft_con>.s_addr{
         width: initial;
-        margin: 20px auto 0px;
-        font-size: 1.6vw;
+        font-size: 2.8vw;
         text-align: center;
     }
     .s_addr>small{
-        font-size: 1.4vw;
+        font-size: 2.4vw;
+        margin-top: 10px;
+    }
+    .s_ft_con>.s_ft_logo{
+        width: 40vw;
+        height: 8vw;
+        margin-bottom: 0px;
     }
 } /* Mobile End */

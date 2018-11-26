@@ -119,6 +119,19 @@
         top: calc(50% + 9px);
         left: 0px;
     }
+    .s_more{
+        top: 4.5vw;
+    }
+    .s_more>a{
+        width: 10vw;
+        height: 1.6vw;
+        font-size: 1.6vw;
+        font-weight: bold;
+        color: #a4a6a6;
+        background-image: none;
+        text-align: right;
+        text-indent: 0px;
+    }
     /* Sub Banner */
     .s_fsbanner>h3, .s_csbanner>h3{
         font-size: 2vw;
@@ -126,11 +139,16 @@
     .s_fsb_kw, .s_csb_kw{
         top: 30%;
     }
+    .s_fsb_kw>label, .s_csb_kw>label{
+        font-size: 1.8vw;
+    }
     .s_fs_detail, .s_cs_detail{
         top: 40%;
     }
     .s_fs_detail>label>a, .s_cs_detail>label>a{
         width: 60%;
+    }
+    .s_fs_detail>label>a, .s_cs_detail>label>a, .s_fsb_info>label, .s_csb_info>label{
         height: 3.2vw;
         line-height: 3.2vw;
         font-size: 1.6vw; 
@@ -154,17 +172,22 @@
         margin-bottom: 20px;
     }
     .s_box>a>h2{
-        top: 40%;
+        top: 35%;
         box-sizing: border-box;
         font-size: 1.8vw;
     }
     .s_box>a>p{
-        top: 60%;
+        top: 55%;
         font-size: 1.5vw;
     }
     .s_box:nth-of-type(3)>a>h2{
-        top: 30%;
-        padding: 0px 4vw;
+        top: 25%;
+    }
+    .s_box:nth-of-type(3)>a>h2>br{
+        display: block;
+    }
+    .s_box:nth-of-type(3)>a>p{
+        top: 60%;
     }
     .s_ft_logo{
         position: absolute;
@@ -178,9 +201,6 @@
 
 /* Mobile ~767px */
 @media all and (max-width: 767px){
-    #s_mc, #s_ft{
-        display: none;
-    }
     /* Main Banner */
     #s_mb{
         padding-top: 20px;
@@ -313,94 +333,123 @@
     
     /* Main Content */
     #s_mc{
-        padding-top: 4.2vw;
+        padding: 4.2vw 10px 0px 10px;
     }
     .s_mcon1{
         position: relative;
-        margin: 0px 20px;
-    }
-    .s_mcon1>div{
-        width: calc((100vw - 80px)/3);
-        height: calc((100vw - 80px)/2);
+        margin: 0px;
     }
     /* Notice & Event */
     .s_mcon1>.s_notice, .s_mcon1>.s_event{
-        height: calc((100vw - 80px)/4 - 10px);
+        width: calc(100vw - 20px);
         padding: 4.5vw 15px;
-    }
-    .s_notice>a:nth-of-type(n), .s_event>a:nth-of-type(n){
-        display: none;
-    }
-    .s_notice>a:nth-of-type(1), .s_event>a:nth-of-type(1){
-        display: block;
-    }
-    .s_mcon1>.s_notice>h2, .s_mcon1>.s_event>h2{
-        font-size: 2vw;
         margin-bottom: 10px;
     }
-    .s_notcon>h3, .s_evcon>h3, .s_notcon>p, .s_evcon>p{
-        font-size: 1.6vw;
-        line-height: 2.4vw;
+    .s_mcon1>.s_notice>h2, .s_mcon1>.s_event>h2{
+        font-size: 4vw;
+        margin-bottom: 10px;
     }
-    .s_mcon1>.s_event{
-        display: block;
-        position: absolute;
-        top: calc(50% + 9px);
-        left: 0px;
+    .s_notcon, .s_evcon{
+        margin-bottom: 0px;
+    }
+    .s_notcon>h3, .s_evcon>h3, .s_notcon>p, .s_evcon>p{
+        font-size: 3.2vw;
+        line-height: 4.8vw;
+    }
+    .s_notcon>h3>br, .s_evcon>h3>br{
+        display: none;
+    }
+    .s_more{
+        top: 4.5vw;
+    }
+    .s_more>a{
+        width: 15vw;
+        height: 3.6vw;
+        font-size: 3.6vw;
+        font-weight: bold;
+        color: #a4a6a6;
+        background-image: none;
+        text-align: right;
+        text-indent: 0px;
     }
     /* Sub Banner */
+    .s_mcon1>.s_fsbanner, .s_mcon1>.s_csbanner{
+        width: calc((100vw - 30px)/2);
+        height: calc((100vw - 30px)/4*3);
+        margin-right: 0px;
+    }
+    .s_fsbanner:hover:before, .s_fsbanner:focus:before, .s_csbanner:hover:before, .s_csbanner:focus:before{
+        border: 3px solid #eb5b0c;
+    }
     .s_fsbanner>h3, .s_csbanner>h3{
-        font-size: 2vw;
+        top: 3.5vw;
+        left: 3.5vw;
+        padding-bottom: 0.5vw;
+        font-size: 3.6vw;
     }
     .s_fsb_kw, .s_csb_kw{
         top: 30%;
+    }
+    .s_fsb_kw>label, .s_csb_kw>label{
+        font-size: 2.8vw;
+        letter-spacing: 0px;
     }
     .s_fs_detail, .s_cs_detail{
         top: 40%;
     }
     .s_fs_detail>label>a, .s_cs_detail>label>a{
         width: 60%;
-        height: 3.2vw;
-        line-height: 3.2vw;
-        font-size: 1.6vw; 
+    }
+    .s_fs_detail>label>a, .s_cs_detail>label>a, .s_fsb_info>label, .s_csb_info>label{
+        height: 5.6vw;
+        line-height: 5.6vw;
+        font-size: 2.8vw;
+    }
+    .s_fsb_direction>label, .s_csb_direction>label{
+        width: 5vw;
+        height: 5vw;
+        background-size: cover;
     }
     /* Content 2 */
     .s_mcon2{
-        margin: 20px 20px 0px;
+        margin: 10px 0px 0px;
     }
-    .s_box{
-        width: calc((100vw - 80px)/3);
-        height: calc((100vw - 80px)/6);
+    .s_box:nth-of-type(n){
+        width: calc((100vw - 30px)/2);
+        height: calc((100vw - 30px)/4);
+        margin: 0px 0px 10px 0px;
     }
-    .s_box:nth-of-type(3), .s_box:nth-of-type(5), .s_box:nth-of-type(8){
-        margin-right: 0px;
+    .s_box:nth-of-type(7), .s_box:nth-of-type(8){
+        margin-bottom: 0px;
     }
-    .s_box:nth-of-type(4){
-        margin-right: 20px;
+    .s_box:nth-of-type(2n-1){
+        margin-right: 10px;
     }
-    .s_box:nth-of-type(5){
-        margin-left: calc((100vw - 80px)/3 + 20px);
-        margin-bottom: 20px;
+    .s_box>a>img{
+        width: 65%;
     }
     .s_box>a>h2{
-        top: 40%;
+        top: 35%;
         box-sizing: border-box;
-        font-size: 1.8vw;
+        font-size: 3.2vw;
     }
     .s_box>a>p{
-        top: 60%;
-        font-size: 1.5vw;
+        top: 55%;
+        font-size: 2.4vw;
     }
-    .s_box:nth-of-type(3)>a>h2{
+    .s_box:nth-of-type(n)>a>h2>br, .s_box:nth-of-type(n)>a>p>br{
+        display: block;
+    }
+    .s_box:nth-of-type(2)>a>h2, .s_box:nth-of-type(3)>a>h2, .s_box:nth-of-type(5)>a>h2{
+        top: 20%;
+    }
+    .s_box:nth-of-type(4)>a>h2, .s_box:nth-of-type(6)>a>h2{
         top: 30%;
-        padding: 0px 4vw;
     }
-    .s_ft_logo{
-        position: absolute;
-        top: calc((-100vw + 80px)/4 - 4.2vw - 40px);
-        left: 50%;
-        transform: translateX(-50%);
-        width: 20vw;
-        height: 4vw;
+    .s_box:nth-of-type(4)>a>p{
+        top: 65%;
+    }
+    .s_box:nth-of-type(6)>a>p{
+        top: 50%;
     }
 } /* Mobile End */
