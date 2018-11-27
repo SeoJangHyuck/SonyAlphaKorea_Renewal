@@ -1,6 +1,7 @@
 $(function(){
     //Mobile GNB
     $(".s_mgnb_btn").click(function(){
+        $(this).toggleClass("s_mgnb_a");
         $(".s_mgnb_con").toggleClass("s_mgnb_a");
     });
     $("#s_mgnb1>li>a").click(function(){
@@ -11,6 +12,7 @@ $(function(){
         $(this).next().children("ul").stop().slideDown(500);
         $(this).parent().siblings().find("ul").stop().slideUp(500);
     });
+    
     //Product icon
     $(".s_hd_pr>a").on("mouseover focusin",function(){
         $(this).prev("img").addClass("s_pr_act");
