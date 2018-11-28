@@ -9,7 +9,7 @@ Tablet버전: Width 768px~1199px
 
 Mobile버전: Width ~767px
 
-사용언어: HTML, CSS, JavaScript, J-Qurey
+사용언어: HTML, CSS, JavaScript, J-Query
 
 이미지 작업: Adobe Photoshop, Adobe Illustrator
 
