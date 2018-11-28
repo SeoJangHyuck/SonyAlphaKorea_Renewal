@@ -13,7 +13,7 @@ Mobile버전: Width ~767px
 
 이미지 작업: Adobe Photoshop, Adobe Illustrator
 
-이미지 작업 정보: source 파일 참고
+설계 정보: source 파일 참고
 
 Page Location: Main page, Sub page(제품정보 > 미러리스) <총 2 Page 제작>
 
