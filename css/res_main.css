@@ -374,40 +374,6 @@
         height: 5vw;
         background-size: cover;
     }
-    /* .s_mcon1>.s_fsbanner, .s_mcon1>.s_csbanner{
-        width: calc((100vw - 30px)/2);
-        height: calc((100vw - 30px)/4*3);
-        margin-right: 0px;
-    }
-    .s_fsbanner:hover:before, .s_fsbanner:focus:before, .s_csbanner:hover:before, .s_csbanner:focus:before{
-        border: 3px solid #eb5b0c;
-    }
-    .s_fsbanner>h3, .s_csbanner>h3{
-        
-    }
-    .s_fsb_kw, .s_csb_kw{
-        top: 30%;
-    }
-    .s_fsb_kw>label, .s_csb_kw>label{
-        font-size: 2.8vw;
-        letter-spacing: 0px;
-    }
-    .s_fs_detail, .s_cs_detail{
-        top: 40%;
-    }
-    .s_fs_detail>label>a, .s_cs_detail>label>a{
-        width: 60%;
-    }
-    .s_fs_detail>label>a, .s_cs_detail>label>a, .s_fsb_info>label, .s_csb_info>label{
-        height: 5.6vw;
-        line-height: 5.6vw;
-        font-size: 2.8vw;
-    }
-    .s_fsb_direction>label, .s_csb_direction>label{
-        width: 5vw;
-        height: 5vw;
-        background-size: cover;
-    } */
     /* Content 2 */
     .s_mcon2{
         margin: 10px 0px 0px;
