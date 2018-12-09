@@ -9,7 +9,9 @@ Tablet버전: Width 768px~1199px
 
 Mobile버전: Width ~767px
 
-사용언어: HTML, CSS, JavaScript, J-Query
+Cross Browsing: IE8+, Chrome, FireFox, Opera, Safari
+
+사용언어: HTML, CSS, JavaScript(J-Query, bxSlider)
 
 이미지 작업: Adobe Photoshop, Adobe Illustrator
 
@@ -17,4 +19,4 @@ Mobile버전: Width ~767px
 
 Page Location: Main page, Sub page(제품정보 > 미러리스) <총 2 Page 제작>
 
-Page Domain: http://sjh9386061.dothome.co.kr
+Page Domain: http://sjh9386063.dothome.co.kr

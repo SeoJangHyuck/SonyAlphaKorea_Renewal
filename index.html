@@ -10,6 +10,7 @@
     <meta name="theme-color" content="#ffffff">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
     <link href="css/common.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/res_common.css" rel="stylesheet">
@@ -25,6 +26,7 @@
     <![endif]-->
     
     <script src="js/jquery_1.12.3.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
     <script src="js/common.js"></script>
     <script src="js/main.js"></script>
 </head>
@@ -204,57 +206,15 @@
     <div id="s_mb">
         <div class="s_mb_img">
             <h2 class="s_blind">Main Banner</h2>
-            <input type="radio" name="mb" id="s_b1" checked="checked">
-            <input type="radio" name="mb" id="s_b2">
-            <input type="radio" name="mb" id="s_b3">
-            <input type="radio" name="mb" id="s_b4">
-            <input type="radio" name="mb" id="s_b5">
-            <input type="radio" name="mb" id="s_b6">
-            <input type="radio" name="mb" id="s_b7">
-            <input type="radio" name="mb" id="s_b8">
             <div class="s_mbanner">
-                <div><a href="#">알파 풀프레임 풍경사진</a></div>
-                <div><a href="#">10월의 렌즈 SEL85F14GM</a></div>
-                <div><a href="#">풍경 사진 베스트샷 후기 이벤트</a></div>
-                <div><a href="#">SEL85F14GM 정품등록</a></div>
-                <div><a href="#">프로페셔널 스튜디오 상담 서비스 안내</a></div>
-                <div><a href="#">α7rIII 프로의 오리지널리티</a></div>
-                <div><a href="#">풀프레임 카메라 무상 수리</a></div>
-                <div><a href="#">알파 체험단 리뷰 감상하기</a></div>
-            </div>
-            <div class="s_mb_rbtn">
-                <label for="s_b1" class="s_rbtn">banner1</label>
-                <label for="s_b2" class="s_rbtn">banner2</label>
-                <label for="s_b3" class="s_rbtn">banner3</label>
-                <label for="s_b4" class="s_rbtn">banner4</label>
-                <label for="s_b5" class="s_rbtn">banner5</label>
-                <label for="s_b6" class="s_rbtn">banner6</label>
-                <label for="s_b7" class="s_rbtn">banner7</label>
-                <label for="s_b8" class="s_rbtn">banner8</label>
-            </div>
-            <div class="s_mb_pdtn">
-                <a href="#" class="s_play">재생</a>
-                <a href="#" class="s_stop">일시정지</a>
-            </div>
-            <div class="s_mb_kw">
-                <label for="s_b1" class="s_mkw">&copy;알파 풀프레임 풍경사진</label>
-                <label for="s_b2" class="s_mkw">&copy;10월의 렌즈 SEL85F14G</label>
-                <label for="s_b3" class="s_mkw">&copy;풍경 사진 베스트샷 후기 이벤트</label>
-                <label for="s_b4" class="s_mkw">&copy;SEL85F14GM 정품등록</label>
-                <label for="s_b5" class="s_mkw">&copy;프로페셔널 스튜디오 상담 서비스 안내</label>
-                <label for="s_b6" class="s_mkw">&copy;α7RIII 프로의 오리지널리티</label>
-                <label for="s_b7" class="s_mkw">&copy;풀프레임 카메라 무상 수리</label>
-                <label for="s_b8" class="s_mkw">&copy;알파 체험단 리뷰 감상하기</label>
-            </div>
-            <div class="s_mb_direction">
-                <label for="s_b1" class="s_dire_mbtn">banner1</label>
-                <label for="s_b2" class="s_dire_mbtn">banner2</label>
-                <label for="s_b3" class="s_dire_mbtn">banner3</label>
-                <label for="s_b4" class="s_dire_mbtn">banner4</label>
-                <label for="s_b5" class="s_dire_mbtn">banner5</label>
-                <label for="s_b6" class="s_dire_mbtn">banner6</label>
-                <label for="s_b7" class="s_dire_mbtn">banner7</label>
-                <label for="s_b8" class="s_dire_mbtn">banner8</label>
+                <div><a href="#"><img src="img/main/banner/m_banner1.jpg" title="&copy;알파 풀프레임 풍경사진"></a></div>
+                <div><a href="#"><img src="img/main/banner/m_banner2.jpg" title="&copy;10월의 렌즈 SEL85F14G"></a></div>
+                <div><a href="#"><img src="img/main/banner/m_banner3.jpg" title="&copy;풍경 사진 베스트샷 후기 이벤트"></a></div>
+                <div><a href="#"><img src="img/main/banner/m_banner4.jpg" title="&copy;SEL85F14GM 정품등록"></a></div>
+                <div><a href="#"><img src="img/main/banner/m_banner5.jpg" title="&copy;프로페셔널 스튜디오 상담 서비스 안내"></a></div>
+                <div><a href="#"><img src="img/main/banner/m_banner6.jpg" title="&copy;α7RIII 프로의 오리지널리티"></a></div>
+                <div><a href="#"><img src="img/main/banner/m_banner7.jpg" title="&copy;풀프레임 카메라 무상 수리"></a></div>
+                <div><a href="#"><img src="img/main/banner/m_banner8.jpg" title="&copy;알파 체험단 리뷰 감상하기"></a></div>
             </div>
         </div>
     </div>
@@ -332,109 +292,80 @@
             <div class="s_fsbanner">
                 <h2 class="s_blind">풀프레임 센서 제품</h2>
                 <h3>풀프레임 센서</h3>
-                <input type="radio" name="fsb" id="s_fb1" checked="checked">
-                <input type="radio" name="fsb" id="s_fb2">
-                <input type="radio" name="fsb" id="s_fb3">
-                <input type="radio" name="fsb" id="s_fb4">
-                <input type="radio" name="fsb" id="s_fb5">
-                <input type="radio" name="fsb" id="s_fb6">
-                <input type="radio" name="fsb" id="s_fb7">
-                <input type="radio" name="fsb" id="s_fb8">
-                <ul class="s_fsimg s_clear">
-                    <li>α73</li>
-                    <li>α9</li>
-                    <li>α7R3</li>
-                    <li>α7S2</li>
-                    <li>α7R2</li>
-                    <li>α72</li>
-                    <li>α7S</li>
-                    <li>α7</li>
-                </ul>
-                <div class="s_fsb_kw s_clear">
-                    <label for="s_fb1" class="s_fskw">모두를 위한 완벽한 선택</label>
-                    <label for="s_fb2" class="s_fskw">새로운 풀프레임 시대의 서막</label>
-                    <label for="s_fb3" class="s_fskw">Resolution X Speed</label>
-                    <label for="s_fb4" class="s_fskw">표현의 한계를 뛰어넘다</label>
-                    <label for="s_fb5" class="s_fskw">풀프레임의 이상을 실현하다</label>
-                    <label for="s_fb6" class="s_fskw">흔들림을 정복하다</label>
-                    <label for="s_fb7" class="s_fskw">고감도를 정복하다</label>
-                    <label for="s_fb8" class="s_fskw">Perfection for all</label>
-                </div>
-                <div class="s_fs_detail s_clear">
-                    <label for="s_fb1" class="s_fdetail"><a href="#">상세정보 보기</a></label>
-                    <label for="s_fb2" class="s_fdetail"><a href="#">상세정보 보기</a></label>
-                    <label for="s_fb3" class="s_fdetail"><a href="#">상세정보 보기</a></label>
-                    <label for="s_fb4" class="s_fdetail"><a href="#">상세정보 보기</a></label>
-                    <label for="s_fb5" class="s_fdetail"><a href="#">상세정보 보기</a></label>
-                    <label for="s_fb6" class="s_fdetail"><a href="#">상세정보 보기</a></label>
-                    <label for="s_fb7" class="s_fdetail"><a href="#">상세정보 보기</a></label>
-                    <label for="s_fb8" class="s_fdetail"><a href="#">상세정보 보기</a></label>
-                </div>
-                <div class="s_fsb_info s_clear">
-                    <label for="s_fb1" class="s_finfo">α7III (1/8)</label>
-                    <label for="s_fb2" class="s_finfo">α9 (2/8)</label>
-                    <label for="s_fb3" class="s_finfo">α7RIII (3/8)</label>
-                    <label for="s_fb4" class="s_finfo">α7SII (4/8)</label>
-                    <label for="s_fb5" class="s_finfo">α7RII (5/8)</label>
-                    <label for="s_fb6" class="s_finfo">α7II (6/8)</label>
-                    <label for="s_fb7" class="s_finfo">α7S (7/8)</label>
-                    <label for="s_fb8" class="s_finfo">α7 (8/8)</label>
-                </div>
-                <div class="s_fsb_direction">
-                    <label for="s_fb1" class="s_dire_fsbtn">banner1</label>
-                    <label for="s_fb2" class="s_dire_fsbtn">banner2</label>
-                    <label for="s_fb3" class="s_dire_fsbtn">banner3</label>
-                    <label for="s_fb4" class="s_dire_fsbtn">banner4</label>
-                    <label for="s_fb5" class="s_dire_fsbtn">banner5</label>
-                    <label for="s_fb6" class="s_dire_fsbtn">banner6</label>
-                    <label for="s_fb7" class="s_dire_fsbtn">banner7</label>
-                    <label for="s_fb8" class="s_dire_fsbtn">banner8</label>
+                <div class="s_fsimg">
+                    <div>
+                        <img src="img/main/product/f_banner1.jpg" title="α7III (1/8)">
+                        <p>모두를 위한 완벽한 선택</p>
+                        <a href="#">상세정보보기</a>
+                    </div>
+                    <div>
+                        <img src="img/main/product/f_banner2.jpg" title="α9 (2/8)">
+                        <p>새로운 풀프레임 시대의 서막</p>
+                        <a href="#">상세정보보기</a>
+                    </div>
+                    <div>
+                        <img src="img/main/product/f_banner3.jpg" title="α7RIII (3/8)">
+                        <p>Resolution X Speed</p>
+                        <a href="#">상세정보보기</a>
+                    </div>
+                    <div>
+                        <img src="img/main/product/f_banner4.jpg" title="α7SII (4/8)">
+                        <p>표현의 한계를 뛰어넘다</p>
+                        <a href="#">상세정보보기</a>
+                    </div>
+                    <div>
+                        <img src="img/main/product/f_banner5.jpg" title="α7RII (5/8)">
+                        <p>풀프레임의 이상을 실현하다</p>
+                        <a href="#">상세정보보기</a>
+                    </div>
+                    <div>
+                        <img src="img/main/product/f_banner6.jpg" title="α7II (6/8)">
+                        <p>흔들림을 정복하다</p>
+                        <a href="#">상세정보보기</a>
+                    </div>
+                    <div>
+                        <img src="img/main/product/f_banner7.jpg" title="α7S (7/8)">
+                        <p>고감도를 정복하다</p>
+                        <a href="#">상세정보보기</a>
+                    </div>
+                    <div>
+                        <img src="img/main/product/f_banner8.jpg" title="α7 (8/8)">
+                        <p>Perfection for all</p>
+                        <a href="#">상세정보보기</a>
+                    </div>
                 </div>
             </div>
             <div class="s_csbanner">
-                <h2 class="s_blind">크롭 센서 제품</h2>
-                <h3>크롭 센서</h3>
-                <input type="radio" name="csb" id="s_cb1" checked="checked">
-                <input type="radio" name="csb" id="s_cb2">
-                <input type="radio" name="csb" id="s_cb3">
-                <input type="radio" name="csb" id="s_cb4">
-                <input type="radio" name="csb" id="s_cb5">
-                <ul class="s_csimg s_clear">
-                    <li>α6500</li>
-                    <li>α6300</li>
-                    <li>α6000</li>
-                    <li>α5100</li>
-                    <li>α5000</li>
-                </ul>
-                <div class="s_csb_kw s_clear">
-                    <label for="s_cb1" class="s_cskw">고성능 미러리스의 재정의</label>
-                    <label for="s_cb2" class="s_cskw">사진과 영상의 완벽한 조화</label>
-                    <label for="s_cb3" class="s_cskw">미러리스의 한계를 초월하다</label>
-                    <label for="s_cb4" class="s_cskw">미러리스의 추월</label>
-                    <label for="s_cb5" class="s_cskw">예뻐지는 카메라</label>
+                <h2 class="s_blind">풀프레임 센서 제품</h2>
+                <h3>풀프레임 센서</h3>
+                <div class="s_csimg">
+                    <div>
+                        <img src="img/main/product/c_banner1.jpg" title="α6500 (1/5)">
+                        <p>고성능 미러리스의 재정의</p>
+                        <a href="#">상세정보보기</a>
+                    </div>
+                    <div>
+                        <img src="img/main/product/c_banner2.jpg" title="α6300 (2/5)">
+                        <p>사진과 영상의 완벽한 조화</p>
+                        <a href="#">상세정보보기</a>
+                    </div>
+                    <div>
+                        <img src="img/main/product/c_banner3.jpg" title="α6000 (3/5)">
+                        <p>미러리스의 한계를 초월하다</p>
+                        <a href="#">상세정보보기</a>
+                    </div>
+                    <div>
+                        <img src="img/main/product/c_banner4.jpg" title="α5100 (4/5)">
+                        <p>미러리스의 추월</p>
+                        <a href="#">상세정보보기</a>
+                    </div>
+                    <div>
+                        <img src="img/main/product/c_banner5.jpg" title="α5000 (5/5)">
+                        <p>예뻐지는 카메라</p>
+                        <a href="#">상세정보보기</a>
+                    </div>
                 </div>
-                <div class="s_cs_detail s_clear">
-                    <label for="s_cb1" class="s_cdetail"><a href="#">상세정보 보기</a></label>
-                    <label for="s_cb2" class="s_cdetail"><a href="#">상세정보 보기</a></label>
-                    <label for="s_cb3" class="s_cdetail"><a href="#">상세정보 보기</a></label>
-                    <label for="s_cb4" class="s_cdetail"><a href="#">상세정보 보기</a></label>
-                    <label for="s_cb5" class="s_cdetail"><a href="#">상세정보 보기</a></label>
-                </div>
-                <div class="s_csb_info s_clear">
-                    <label for="s_cb1" class="s_cinfo">α6500 (1/5)</label>
-                    <label for="s_cb2" class="s_cinfo">α6300 (2/5)</label>
-                    <label for="s_cb3" class="s_cinfo">α6000 (3/5)</label>
-                    <label for="s_cb4" class="s_cinfo">α5100 (4/5)</label>
-                    <label for="s_cb5" class="s_cinfo">α5000 (5/5)</label>
-                </div>
-                <div class="s_csb_direction">
-                    <label for="s_cb1" class="s_dire_csbtn">banner1</label>
-                    <label for="s_cb2" class="s_dire_csbtn">banner2</label>
-                    <label for="s_cb3" class="s_dire_csbtn">banner3</label>
-                    <label for="s_cb4" class="s_dire_csbtn">banner4</label>
-                    <label for="s_cb5" class="s_dire_csbtn">banner5</label>
-                </div>
-            </div>
+            </div> 
         </div>
         <section class="s_mcon2 s_clear s_center">
             <div class="s_box">

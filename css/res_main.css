@@ -13,38 +13,8 @@
     /* Main Banner */
     .s_mb_img{
         width: 60vw;
-        height: 40vw;
         margin-top: 4.5vw;
         margin-bottom: 2vw;
-    }
-    .s_mbanner>div{
-        width: 60vw;
-        height: 40vw;
-    }
-    .s_mb_rbtn{
-        width: 260px;
-        text-align: center;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .s_mb_rbtn>label{
-        margin-right: 0.8vw;
-    }
-    .s_mb_rbtn>label:last-child{
-        margin-right: 0px;
-    }
-    .s_mb_pdtn>a{
-        display: none;
-    }
-    .s_mb_kw{
-        bottom: -40px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 40vw;
-    }
-    .s_mkw{
-        font-size: 1.6vw;
-        font-weight: normal;
     }
     
     /* SNS & Customer Content */
@@ -99,7 +69,6 @@
     }
     .s_mcon1>div{
         width: calc((100vw - 80px)/3);
-        height: calc((100vw - 80px)/2);
     }
     /* Notice & Event */
     .s_mcon1>.s_notice, .s_mcon1>.s_event{
@@ -143,19 +112,21 @@
     .s_fsbanner>h3, .s_csbanner>h3{
         font-size: 2vw;
     }
-    .s_fsb_kw, .s_csb_kw{
-        top: 30%;
+    .s_mcon1 .bx-wrapper img{
+        height: calc((100vw - 80px)/2);
     }
-    .s_fsb_kw>label, .s_csb_kw>label{
+    .s_fsimg>div>p, .s_csimg>div>p{
+        top: 30%;
         font-size: 1.8vw;
     }
-    .s_fs_detail, .s_cs_detail{
+    .s_fsimg>div>a, .s_csimg>div>a{
         top: 40%;
-    }
-    .s_fs_detail>label>a, .s_cs_detail>label>a{
         width: 60%;
+        margin-left: 0px;
+        transform: translate(-50%);
     }
-    .s_fs_detail>label>a, .s_cs_detail>label>a, .s_fsb_info>label, .s_csb_info>label{
+    .s_fsimg>div>a, .s_csimg>div>a, .s_fsbanner .bx-wrapper .bx-caption span,
+    .s_csbanner .bx-wrapper .bx-caption span{
         height: 3.2vw;
         line-height: 3.2vw;
         font-size: 1.6vw; 
@@ -209,51 +180,32 @@
 /* Mobile ~767px */
 @media all and (max-width: 767px){
     /* Main Banner */
+    #s_mb .bx-controls-direction, #s_mb .bx-controls-auto{
+        display: none;
+    }
     #s_mb{
         padding-top: 20px;
-        padding-bottom: calc(4.5vw + 10px);
         background: #111;
+        padding-bottom: calc(4.5vw + 10px);
     }
     .s_mb_img{
         width: 100vw;
-        height: 66vw;
         margin: 0px;
     }
-    .s_mbanner>div{
-        width: 100%;
-        height: 66vw;
-    }
-    .s_mb_rbtn{
-        width: 250px;
-        text-align: center;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 10px;
-    }
-    .s_mb_rbtn>label{
-        margin-right: 1vw;
-    }
-    .s_mb_rbtn>label:last-child{
-        margin-right: 0px;
-    }
-    .s_mb_pdtn>a{
-        display: none;
-    }
-    .s_mb_kw{
+    .s_mb_img .bx-wrapper .bx-caption{
         bottom: calc(-9vw - 10px);
         left: 50%;
         transform: translateX(-50%);
         width: 100vw;
-        height: 9vw;
-        line-height: 9vw;
+        margin: 0;
+        background: #000;
     }
-    .s_mkw{
+    .s_mb_img .bx-wrapper .bx-caption span{
+        line-height: 9vw;
+        height: 9vw;
         letter-spacing: 0.1vw;
         font-size: 3.6vw;
         font-weight: bold;
-    }
-    .s_mb_direction{
-        display: none;
     }
     
     /* SNS & Customer Content */
@@ -382,6 +334,48 @@
     /* Sub Banner */
     .s_mcon1>.s_fsbanner, .s_mcon1>.s_csbanner{
         width: calc((100vw - 30px)/2);
+        margin-right: 10px;
+    }
+    .s_mcon1>.s_csbanner{
+        margin-right: 0px;
+    }
+    .s_fsbanner>h3, .s_csbanner>h3{
+        top: 3.5vw;
+        left: 3.5vw;
+        padding-bottom: 0.5vw;
+        font-size: 3.6vw;
+    }
+    .s_fsbanner:hover .s_fsimg>div:before, .s_csbanner:hover .s_csimg>div:before{
+        border: 2px solid #eb5b0c;
+    }
+    .s_mcon1 .bx-wrapper img{
+        height: calc((100vw - 30px)/4*3);
+    }
+    .s_fsimg>div>p, .s_csimg>div>p{
+        top: 30%;
+        font-size: 2.8vw;
+        letter-spacing: 0px;
+    }
+    .s_fsimg>div>a, .s_csimg>div>a{
+        top: 40%;
+        width: 60%;
+        margin-left: 0px;
+        transform: translate(-50%);
+    }
+    .s_fsimg>div>a, .s_csimg>div>a, .s_fsbanner .bx-wrapper .bx-caption span,
+    .s_csbanner .bx-wrapper .bx-caption span{
+        height: 5.6vw;
+        line-height: 5.6vw;
+        font-size: 2.8vw; 
+    }
+    .s_fsbanner .bx-wrapper .bx-controls-direction a,
+    .s_csbanner .bx-wrapper .bx-controls-direction a {
+        width: 5vw;
+        height: 5vw;
+        background-size: cover;
+    }
+    /* .s_mcon1>.s_fsbanner, .s_mcon1>.s_csbanner{
+        width: calc((100vw - 30px)/2);
         height: calc((100vw - 30px)/4*3);
         margin-right: 0px;
     }
@@ -389,10 +383,7 @@
         border: 3px solid #eb5b0c;
     }
     .s_fsbanner>h3, .s_csbanner>h3{
-        top: 3.5vw;
-        left: 3.5vw;
-        padding-bottom: 0.5vw;
-        font-size: 3.6vw;
+        
     }
     .s_fsb_kw, .s_csb_kw{
         top: 30%;
@@ -416,7 +407,7 @@
         width: 5vw;
         height: 5vw;
         background-size: cover;
-    }
+    } */
     /* Content 2 */
     .s_mcon2{
         margin: 10px 0px 0px;
