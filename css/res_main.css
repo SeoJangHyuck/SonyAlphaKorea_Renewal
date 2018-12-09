@@ -346,7 +346,7 @@
         font-size: 3.6vw;
     }
     .s_fsbanner:hover .s_fsimg>div:before, .s_csbanner:hover .s_csimg>div:before{
-        border: 2px solid #eb5b0c;
+        border: 3px solid #eb5b0c;
     }
     .s_mcon1 .bx-wrapper img{
         height: calc((100vw - 30px)/4*3);
