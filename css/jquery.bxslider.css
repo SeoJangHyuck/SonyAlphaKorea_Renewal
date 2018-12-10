@@ -114,6 +114,7 @@ ul.bxslider {
 .s_fsbanner .bx-wrapper .bx-prev,
 .s_csbanner .bx-wrapper .bx-prev {
   background: url("../img/main/product/s_btn_left_s.png") no-repeat;
+  left: 20px; /* ie8 */
   left: 1.5vw;
 }
 .s_fsbanner .bx-wrapper .bx-prev:hover,
@@ -124,6 +125,7 @@ ul.bxslider {
 }
 .s_fsbanner .bx-wrapper .bx-next,
 .s_csbanner .bx-wrapper .bx-next {
+  right: 20px; /* ie8 */
   right: 1.5vw;
   background: url("../img/main/product/s_btn_right_s.png") no-repeat;
 }

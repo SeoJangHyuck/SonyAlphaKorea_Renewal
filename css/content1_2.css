@@ -121,16 +121,14 @@ body{
 #s_lnb>div>div>ul>li>a:hover, #s_lnb>div>div>ul>li>a:focus{
     background-color: #fff;
 }
-#s_lnb>button{
+#s_lnb>a{
+    display: block;
+    text-indent: -9999px;
     width: 60px;
     height: 25px;
     border: none;
     background: url(../sub/img/sub_local_search.png) no-repeat center center;
     background-size: contain;
-}
-#s_lnb>button>a{
-    display: block;
-    text-indent: -9999px;
 }
 #s_lnb>img{
     width: 30px;

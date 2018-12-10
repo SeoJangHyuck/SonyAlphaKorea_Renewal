@@ -58,7 +58,7 @@
     #s_lnb>img{
         display: none;
     }
-    #s_lnb>button{
+    #s_lnb>a{
         width: 6vw;
         height: 2.4vw;
     }
@@ -194,7 +194,7 @@
     #s_lnb>img{
         display: none;
     }
-    #s_lnb>button{
+    #s_lnb>a{
         margin-left: 2.5vw;
         width: 6vw;
         height: 6vw; 

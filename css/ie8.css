@@ -1,0 +1,10 @@
+@charset "utf-8";
+.s_hd_logo{
+ background-image: url(../img/common/p_main_logo.png);
+}
+.s_ft_logo{
+    background-image: url(../img/common/sub_logo.png);
+}
+#s_lnb>a{
+    background-image: url(../sub/img/p_sub_local_search.png);
+}
