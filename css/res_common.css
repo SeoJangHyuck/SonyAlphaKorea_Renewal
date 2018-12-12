@@ -57,7 +57,7 @@
     left: calc(-25vw - 10px);
     width: 25vw;
     height: 100%;
-    padding-top: 100px;
+    padding-top: 12.5vw;
     border-right: 1px solid #000;
     box-sizing: border-box;
     z-index: 9970;
@@ -192,9 +192,8 @@
     /* Footer */
     #s_ft{
         position: relative;
-        padding-top: 4.2vw;
-        margin-top: 4.2vw;
-        margin-bottom: 4.2vw;
+        padding: 4.2vw 0px;
+        margin: 4.2vw 0px 0px 0px;
     }
     .s_ft_con>:nth-child(n){
         float: none;
@@ -353,8 +352,8 @@
     /* Footer */
     #s_ft{
         position: relative;
-        padding-top: 20px;
-        margin: 20px 0px;
+        padding: 20px 0px;
+        margin: 20px 0px 0px 0px;
     }
     .s_ft_con>:nth-child(n){
         float: none;
