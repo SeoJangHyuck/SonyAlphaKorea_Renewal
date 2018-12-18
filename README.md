@@ -1,7 +1,12 @@
 # SonyAlphaKorea_Renewal
 'Sony Alpha Korea Renewal' Portfolio Page
 
-반응형 웹페이지 제작
+반응형 웹페이지 제작(PC우선형)
+
+<구조설명> 
+기본적으로 상단에 메뉴바가 있는 형태로써, 카메라에 영감을 받아 배경디자인을 하였음.
+기존의 소니알파코리아의 길고 좁은 형태와 중복되는 컨텐츠를 수정하여
+짧고 간결한 형태의 구조로 리뉴얼.
 
 PC버전: Width 1200px~
 
