@@ -34,6 +34,9 @@
     content: "";
     bottom: 12px;
 }
+.s_mgnb_btn.s_mgnb_a{
+    position: fixed;
+}
 .s_mgnb_btn.s_mgnb_a:before{
     left: 14px;
     width: 27px;
@@ -52,11 +55,12 @@
     transform-origin: left bottom;
 }
 .s_mgnb_con{
-    position: absolute;
+    overflow-y: scroll;
+    position: fixed;
     top: 0px;
     left: calc(-25vw - 10px);
     width: 25vw;
-    height: 100%;
+    height: 100vh;
     padding-top: 12.5vw;
     border-right: 1px solid #000;
     box-sizing: border-box;
