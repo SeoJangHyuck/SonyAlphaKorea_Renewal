@@ -11,9 +11,9 @@
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
     <link href="../css/normalize.css" rel="stylesheet">
     <link href="../css/common.css" rel="stylesheet">
-    <link href="../css/content1_2.css" rel="stylesheet">
+    <link href="../css/content1_1.css" rel="stylesheet">
     <link href="../css/res_common.css" rel="stylesheet">
-    <link href="../css/res_content1_2.css" rel="stylesheet">
+    <link href="../css/res_content1_1.css" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
@@ -27,7 +27,7 @@
 
     <script src="../js/jquery_1.12.3.min.js"></script>
     <script src="../js/common.js"></script>
-    <script src="../js/content1_2.js"></script>
+    <script src="../js/content1_1.js"></script>
 </head>
 
 <body>
@@ -71,8 +71,8 @@
                     <a href="#"><span>제품정보</span></a>
                     <div class="s_gnb2">
                         <ul class="s_clear">
+                            <li><a href="/sub/content1_1.html">미러리스</a></li>
                             <li><a href="#">DSLR</a></li>
-                            <li><a href="/sub/content1_2.html">미러리스</a></li>
                             <li><a href="#">렌즈</a></li>
                             <li><a href="#">액세서리</a></li>
                         </ul>
@@ -130,8 +130,8 @@
                         <a href="#"><span>제품정보</span></a>
                         <div class="s_mgnb2">
                             <ul>
+                                <li><a href="/sub/content1_1.html">미러리스</a></li>
                                 <li><a href="#">DSLR</a></li>
-                                <li><a href="/sub/content1_2.html">미러리스</a></li>
                                 <li><a href="#">렌즈</a></li>
                                 <li><a href="#">액세서리</a></li>
                             </ul>
@@ -218,35 +218,48 @@
             </div>
             <div id="s_lnb" class="s_clear">
                 <div class="s_lnb_first">
-                    <div class="s_lnb_sort">
+                    <div class="s_lnb_sort s_lnb_ac">
                         <h2>제품정보</h2>
                         <ul>
-                            <li><a href="#">미러리스</a></li>
-                            <li><a href="#">DSLR</a></li>
-                            <li><a href="#">렌즈</a></li>
+                            <li><a href="#" data-sortlnb="s_lnb_msensor">미러리스</a></li>
+                            <li><a href="#" data-sortlnb="s_lnb_dsensor">DSLR</a></li>
+                            <li><a href="#" data-sortlnb="s_lnb_lens">렌즈</a></li>
                             <li><a href="http://store.sony.co.kr/handler/CateList-StartMiddle?catalogId=6107&catalogId_Large_se=&catalogId_middle_se=&catalogId_Small_se=&ProductID=&Quantity=1&cateSearchGbn=CSearch&param1=6107&param2=middleCate&param3=C&param4=&pageNo=01" target="_blank">액세서리</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="s_lnb_second">
-                    <div class="s_lnb_sensor">
+                    <div class="s_lnb_sdefalt s_lnb_ac">
+                        <h2>종류</h2>
+                    </div>
+                    <div class="s_lnb_msensor">
                         <h3>센서종류</h3>
                         <ul>
-                            <li><a href="#">풀프레임</a></li>
-                            <li><a href="#">APS-C</a></li>
+                            <li><a href="#" data-sortlnb="s_lnb_full">풀프레임</a></li>
+                            <li><a href="#" data-sortlnb="s_lnb_crop">APS-C</a></li>
+                        </ul>
+                        </div>
+                    <div class="s_lnb_dsensor">
+                        <h2>센서종류</h2>
+                        <ul>
+                            <li><a href="#" data-sortlnb="s_lnb_dfull">풀프레임</a></li>
+                            <li><a href="#" data-sortlnb="s_lnb_dcrop">APS-C</a></li>
                         </ul>
                     </div>
                     <div class="s_lnb_lens">
-                        <h3>렌즈종류</h3>
+                        <h2>렌즈종류</h2>
                         <ul>
-                            <li><a href="#">DSLR&#40;A-Mount&#41;</a></li>
-                            <li><a href="#">미러리스&#40;E-Mount&#41;</a></li>
+                            <li><a href="#" data-sortlnb="s_lnb_mount">DSLR&#40;A-Mount&#41;</a></li>
+                            <li><a href="#" data-sortlnb="s_lnb_mount">미러리스&#40;E-Mount&#41;</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="s_lnb_third">
+                    <div class="s_lnb_tdefalt s_lnb_ac">
+                        <h2>제품명</h2>
+                    </div>
                     <div class="s_lnb_full">
-                        <h4>제품명</h4>
+                        <h2>제품명</h2>
                         <ul>
                             <li><a href="#">A7III</a></li>
                             <li><a href="#">A7RIII</a></li>
@@ -259,7 +272,7 @@
                         </ul>
                     </div>
                     <div class="s_lnb_crop">
-                        <h4>제품명</h4>
+                        <h2>제품명</h2>
                         <ul>
                             <li><a href="#">A6500</a></li>
                             <li><a href="#">A6300</a></li>
@@ -268,8 +281,23 @@
                             <li><a href="#">A5000</a></li>
                         </ul>
                     </div>
+                    <div class="s_lnb_dfull">
+                        <h2>제품명</h2>
+                        <ul>
+                            <li><a href="#">DSLT-A99II</a></li>
+                            <li><a href="#">DSLT-A99</a></li>
+                        </ul>
+                    </div>
+                    <div class="s_lnb_dcrop">
+                        <h2>제품명</h2>
+                        <ul>
+                            <li><a href="#">A77II</a></li>
+                            <li><a href="#">A77</a></li>
+                            <li><a href="#">DSLT-A58</a></li>
+                        </ul>
+                    </div>
                     <div class="s_lnb_mount">
-                        <h4>용도별</h4>
+                        <h2>용도별</h2>
                         <ul>
                             <li><a href="#">표준 줌 렌즈</a></li>
                             <li><a href="#">광각 줌 렌즈</a></li>
