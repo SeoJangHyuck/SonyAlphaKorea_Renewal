@@ -171,6 +171,8 @@
         float: none;
         margin: 0px auto;
         width: 21vw;
+    }
+    .s_hd_logo>a{
         height: 4vw;
     }
     .s_hd_pr{
@@ -331,6 +333,9 @@
         float: none;
         margin: 0px auto;
         width: 40vw;
+        height: 100%;
+    }
+    .s_hd_logo>a{
         height: 100%;
     }
     .s_hd_pr{
