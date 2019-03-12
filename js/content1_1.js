@@ -17,7 +17,6 @@ $(function(){
         $(this).parents("ul").prev().text(lnbText);
 
         var sortLnb = $(this).attr("data-sortlnb");
-        console.log(sortLnb);
         $("."+sortLnb).siblings().removeClass("s_lnb_ac");
         $("."+sortLnb).addClass("s_lnb_ac");
     });
