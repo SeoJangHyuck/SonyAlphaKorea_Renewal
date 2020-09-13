@@ -24,4 +24,4 @@ Cross Browsing: IE8+, Chrome, FireFox, Opera, Safari
 
 Page Location: Main page, Sub page(제품정보 > 미러리스) <총 2 Page 제작>
 
-Page Domain: www.revefront.com/sonyalpha
+Page Domain: http://sjh9386061.dothome.co.kr/sonyalpha/
